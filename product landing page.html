@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Product Landing Page </title>
+    <link rel="stylesheet" href="product landing page.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+        <img src="images/logo.jpg" id="header-img" alt="company-logo" style="float: left;">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#guitars">Products</a>
+            <a class="nav-link" href="#dealers">Dealers</a>
+            <a class="nav-link" href="#accessories">Accessories</a>
+        </nav>
+    </header>
+    <h1>The SP Guitar Guide</h1>
+    <section id="guitars">
+        <div class="flex-container">
+            <div>
+                <figcaption>SS series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>SP S series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>XP series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>SP Z-series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>Con Z-series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>Con S-series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>SP S-series</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>SP Ukulele</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+            <div>
+                <figcaption>SP Electric</figcaption>
+                <img class="img" src="images/guitars/taylor guitar.jpg">
+            </div>
+        </div>
+    </section>
+
+    <center>
+        <h1>Dealers</h1>
+        <p>Select the brand for which you want a dealer</p>
+        <section id="dealers">
+            <div class="flex-container">
+            <!-- <div class="dealers">  -->
+                <div>
+                    <a id="taylor" href="#">Yamaha</a>
+                </div>
+                <div>
+                    <a id="taylor" href="#">Taylor</a>
+                </div>
+                <div>
+                    <a id="taylor" href="#">Martin</a>
+                </div>
+                <div>
+                    <a id="taylor" href="#">Fender</a>
+                </div>
+            </div>
+        </section>
+    </center>
+
+    <h1>Accessories</h1>
+    <section id="accessories">
+        <div class="access">
+            <div>
+                <figcaption>SP Plectrum</figcaption>
+                <a href="#accessories"><img src="images/guitars/plectrums.jpg"></a>
+            </div>
+            <div>
+                <figcaption>SP Strings</figcaption>
+                <a href="#accessories"><img src="images/guitars/guitar strings.jpg"></a>
+            </div>
+            <div>
+                <figcaption>SP Guitar Cover</figcaption>
+                <a href="#accessories"><img src="images/guitars/guitar cover.jpg" width="225" height="225"></a>
+            </div>
+        </div>
+    </section>
+
+    <center>
+        <h1>Guitar Review</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kg-YlSkcc0w"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </center>
+
+    <form id="form" action="https://www.spguitar.com/email-submit">
+        <label>Subscribe to get updates from SP Guitars:</label>
+        <input id="email" type="email" placeholder="Enter your email" name="email"><br>
+        <center><input id="submit" type="submit"></center>
+    </form>
+</body>
+
+</html>
